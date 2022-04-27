@@ -1,0 +1,22 @@
+* {
+	font-family: "Rubik", sans-serif;
+}
+
+h1,h2,h3 {
+	font-family: "Teko", sans-serif;
+}
+
+nav > img {
+	height: 50px;
+	width: 50px;
+}
+
+div > div > img {
+	height: 350px;
+	width: 350px;
+}
+
+html{
+ 	scroll-behavior: smooth;
+ }
+ ul {list-style: none;}
