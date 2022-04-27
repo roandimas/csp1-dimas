@@ -20,7 +20,7 @@
 	<body>
 
 		<!-- Navbar Section start -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 		  <img src="./images/R.jpg" class="ml-0">
 		  <a class="navbar-brand ml-3" href="#">Roan</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
 		    	  <a class="nav-link" href="#tools">Tools</a>
 		    	</li>
 		    	<li class="nav-item">
-		    	  <a class="nav-link" href="#">Contact</a>
+		    	  <a class="nav-link" href="#contact">Contact</a>
 		    	</li>
 		    </ul>
 		  </div>
@@ -48,10 +48,10 @@
 		<!-- Landing start -->
         <div>
         	<div class="container-fluid p-5" id="landing">
-                <div class="text-center mt-3 pl-5 pr-5">
-                    <h1 class="text-info" >Roan Gretel Dimas</h1>
-                    <h3 class="text-scondary m-1">Aspiring Software Engineer</h3>
-                    <p class="text-justify-center">Hello! My name is Roan Gretel Dimas. I am currently working as an SAP Consultant but I see myself more working as a Software Engineer.</p>       
+                <div class="text-center mt-5 pl-5 pr-5">
+                    <h1>Roan Gretel Dimas</h1>
+                    <h3 class="text-scondary mt-3">Software Engineer</h3>
+                    <p class="text-justify-center">Hello! My name is Roan Gretel Dimas. I am currently working as an SAP Consultant but is also a freelance Web Developer. </p>       
                 </div>
                 <div class="d-flex justify-content-center">
                 	<img src="./images/RGD.jpg" class="img-fluid rounded-circle p-3">
@@ -62,15 +62,15 @@
         <!-- Landing End -->
 
         <!-- Tools start -->
-        <div class="bg-secondary text-light min-vh-100 p-5" id="tools">
-          <h2 class="mb-3 mt-3 text-center">Tools</h2>
+        <div class="text-dark min-vh-100 p-5" id="tools">
+          <h2 class="mb-3 mt-5 text-center">Tools</h2>
 
           <!-- Tools Container start -->
           <div class="d-lg-flex justify-content-center p-md-5">
             <!-- HTML Card start -->
-            <div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+            <div class="card col-xl-4 mb-5 mb-xl-0" id="cardtools">
               <div class="card-body">
-                <img src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg" class="card-img-top">
+                <img src="./images/html.jpg" class="card-img-top">
                 <h5 class="card-title mt-2">HTML</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Programming Basics</h6>
                 <ul>
@@ -85,9 +85,9 @@
             <!-- HTML Card end -->
 
             <!-- CSS Card start -->
-            <div class="card bg-dark col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+            <div class="card col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5" id="cardtools">
               <div class="card-body">
-                <img src="https://miro.medium.com/max/870/1*fC1TiemRWYDWObQUlpAnBg.png" class="card-img-top">
+                <img src="./images/css.png" class="card-img-top">
                 <h5 class="card-title mt-2">CSS</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Basic Styling</h6>
                 <ul>
@@ -99,9 +99,9 @@
             <!-- CSS Card end -->
 
             <!-- Bootstrap Card start -->
-            <div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+            <div class="card col-xl-4 mb-5 mb-xl-0" id="cardtools">
               <div class="card-body">
-                <img src="https://i.morioh.com/2019/12/17/f1ce6a0af5cb.jpg" class="card-img-top">
+                <img src="./images/boots.png" class="card-img-top">
                 <h5 class="card-title mt-2">Bootstrap</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Front-end framework</h6>
                 <ul>
@@ -119,6 +119,68 @@
           
         </div>
         <!-- Tools end -->
+
+        <!-- Contact Me Start-->
+         <div class="container-fluid bg-light text-dark min-vh-100 p-5" id="contact">
+            <h2 class="mb-3 mt-5 text-center">Contact Me</h2>
+
+              <div class="row justify-content-center">
+                <div class="card bg-secondary col-xl-4 col-md-8 col-sm-12 pb-2">
+                  <form>
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-dark pb-1" data-toggle="modal" data-target="#exampleModal">
+                      Send Email
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            Message Successfully Sent
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+          </div>
+        <!-- Contact Me End -->
+
+        <!-- Footer -->
+        	<footer class="page-footer font-small blue pt-4">
+        		<div class="container-fluid text-center">
+        	    <div>
+        	      <div class="mt-2">
+        	        <h5 class="text-center">Roan Gretel Dimas</h5>
+        	      </div>
+        	  <div class="footer-copyright text-center pb-3">© All Rights Reseved 2022 
+        	  </div>
+        	</footer>
+        <!-- Footer -->
 
 		<!-- Bootstrap Script -->
 	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

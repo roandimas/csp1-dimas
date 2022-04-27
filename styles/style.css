@@ -2,8 +2,12 @@
 	font-family: "Rubik", sans-serif;
 }
 
-h1,h2,h3 {
-	font-family: "Teko", sans-serif;
+h3 {
+	font-family: "Teko", sans-serif; color: #5B51D8;
+}
+
+h1 {
+	color: #405DE6 ; font-family: "Teko", sans-serif;
 }
 
 nav > img {
@@ -11,9 +15,25 @@ nav > img {
 	width: 50px;
 }
 
+nav,footer {
+	background-color: #833AB4 ;
+}
+
+#landing {
+ 	border: 10px solid #833AB4; width: 75%;
+ }
+
 div > div > img {
 	height: 350px;
 	width: 350px;
+}
+
+#cardtools {border: 5px solid #833AB4;
+
+}
+
+button{
+	background-color: #5B51D8;
 }
 
 html{
