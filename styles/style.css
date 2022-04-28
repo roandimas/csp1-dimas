@@ -19,6 +19,10 @@ nav,footer {
 	background-color: #833AB4 ;
 }
 
+a:hover {
+	color: #F77737 !important;
+}
+
 #landing {
  	border: 10px solid #833AB4; width: 75%;
  }
